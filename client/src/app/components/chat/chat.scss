@@ -1,0 +1,32 @@
+.chat {
+  padding: 10px;
+  position: absolute;
+	top: 71px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+  .message-list {
+  	border: 1px solid #c0c4c6;
+  	height: calc(100% - 85px);
+    overflow: auto;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 15px;
+    .author {
+    	font-weight: bold;
+    }
+  }
+  input[type="text"] {
+  	width: calc(98% - 120px);
+  	padding-left: 15px;
+  }
+  button {
+  	width: 100px;
+  	margin-left: 10px;
+    float: right;
+    margin-top: 2px;
+  }
+  .card-footer {
+  	margin-top: 10px;
+  }
+}
